@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font
+}
+
+html {
+    font-size: 62.5% ;
+    height: 100%;
+    
+    
+}
+
+body{
+    min-height: 100%;
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header-navbar-container{
+    display: flex;
+    justify-content: flex-end;  
+}
+.header-navbar-container__options{
+    margin: 1.2rem;
+    display: flex;
+    align-content: center   ;
+}
+
+.header-navbar-container__item{
+    color: white;
+    text-decoration: none;
+    font-size:2rem;
+    padding: 0 4px;
+    align-self: center;
+    margin: 0 .4rem ;
+    
+}
+
+.header-navbar-container__item--menuicon{
+    height: 4rem;
+    width: 3.3rem;
+    margin:  0 2rem;
+    padding: 0.5rem;    
+    border-radius: 5rem;
+
+}
+.header-navbar-container__item--accounticon{
+    height: 4rem;
+    width: 3.3rem;  
+    padding: 0.5rem;    
+    border-radius: 5rem;
+
+}
+
+.main-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: center;
+    justify-content: center ;
+}
+.mainBrowserImage-container{
+    margin-top: 200px;
+}
+.mainBrowserImage-container__image{
+    height: 15rem;
+    margin: 0 15rem;
+    margin-bottom: 3rem;
+}
+
+.searchBar-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    border: 1px solid white;
+    margin-top: 2   rem;
+}
+.searchBar-container__searchbar{
+    width: 80%;
+    background-color: transparent;
+    border: 0px;
+}
+.searchBar-container__postSearchbar-icon--icon2{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.buttoms-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+.buttoms-container__buttoms{
+    height: 3.2rem;
+    margin: 1.1rem 0.4rem;
+    background-color: #303134;
+    border-radius: 0.4rem;
+    border: none;
+    padding: 0px 1.6rem;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #171717;
+    height: 8rem;
+    position: relative;
+    margin-top: auto;
+    border-top: solid white 1px;
+}
+
+.footer-container__items{
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+    font-size: 2rem;
+}
