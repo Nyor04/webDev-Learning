@@ -282,8 +282,33 @@ body{
 .section2__cards--card4{
     margin-bottom: 2.4rem;
 }
+/* section3 of the proyect, image */
 
+.section3__backgroud-container{
+    width: 100%;
+    min-width: 320px;
+    background-image: url(../assets/img/bitcoinbaby2x.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
+.section3__title-container{
+    display: flex;
+    justify-content: center;
+    min-width: 288px;
+    
+}
+
+.section3__title{ 
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--white);
+    margin-top: 2rem;
+}
 
 
 
