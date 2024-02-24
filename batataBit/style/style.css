@@ -67,7 +67,7 @@ body{
     background-color: var(--offWhite);
     position: absolute;
     top: 31rem;
-    left: 22.5%;
+    margin: 0 auto;
     text-align: center;
     line-height: 4.6rem;
     text-decoration: none;
