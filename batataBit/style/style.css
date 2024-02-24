@@ -5,7 +5,7 @@
     --softBlue:#e7f5ff;
     --warmBlack:#201e1c;
     --warmBlackPlus1:#282623;
-    --grey:#b9b9b9;
+    --grey:#808080;
     --offWhite:#faf8f7;
     --white:#ffffff;
 }
@@ -19,8 +19,8 @@ html{
 }
 
 body{
-    min-width: 32.0rem;
-    max-width: 41.4rem;
+    min-width: 320px;
+    max-width: 480px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -82,14 +82,14 @@ body{
 .main-container__section--section1{
     background-color: var(--offWhite);
     display: grid;
-    display: grid;
-    grid-template-rows: 1fr auto 1fr ;
+    grid-template-rows: auto auto 1fr ;
     place-items: center;
     place-content: center;
     
 }
+
 .main-container__bitcoinImage{
-    margin: 8rem auto 0;
+    margin: 10rem auto 4rem auto;
 }
 
 .main-container__message{
@@ -162,6 +162,7 @@ body{
     padding:.8rem;
     border-radius: .8rem;
     background-color: var(--softOrange);
+    margin-bottom: 8rem;
   
 
 
@@ -193,6 +194,96 @@ body{
     text-align: center;
 
 }
+
+
+/* section2 of the proyect, benefits */
+.main-container__section--section2{
+    background-color: var(--warmBlack);
+    display: grid;
+    grid-template-rows: auto auto ;
+    place-items: center;
+    height: auto;
+    
+}
+.section2__text-container{
+    width: 90%;
+    margin: 8rem auto 4rem auto;
+    height: 9.4rem;
+}
+
+.section2__title{
+    font-family: DM Sans;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 3.2rem;
+    color: var(--white);
+    width: 100%;
+}
+.section2__subtitle{  
+    font-family: DM Sans;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--grey);
+
+}
+
+.section2__cards-container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1.6rem;
+    
+
+}
+
+.section2__cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2.6rem;
+    gap: 1.2rem;
+    background-color: var(--warmBlackPlus1);
+    box-shadow: 0px 4px 8px 0px #00000029;
+    border-radius: 1rem;
+
+}
+.section2__images{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.section2__cards-titles{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white);
+
+}
+.section2__cards-text{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey);
+    width: 87.5%;
+
+}
+.section2__cards--card4{
+    margin-bottom: 2.4rem;
+}
+
+
 
 
 
