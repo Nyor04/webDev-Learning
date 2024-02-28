@@ -1,0 +1,19 @@
+body{
+    min-width: 768px;
+    max-width: 1023px;
+}
+
+.section2__cards--card4{
+    margin-bottom: 42px;
+}
+
+.section2__cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    width: 90%;
+    margin: 0 auto;
+    gap: 1.6rem;
+    margin: 0 auto;
+    justify-items: center;
+}
