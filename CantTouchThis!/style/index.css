@@ -1,0 +1,97 @@
+:root{
+    --kindaBlack:#35374B;
+    --kindaGreen:#344955;
+    --kindaBlue:#50727B;
+    --greenishGreen:#50727B;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    min-width: 720px;
+    max-width: 1024px;
+}
+.main-container{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    place-content: center;
+    place-items: center;
+    background-color: var(--kindaBlack);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    box-shadow: 5px 5px 20px var(--kindaGreen);
+    background-color: var(--kindaGreen);
+    width: 100vw;
+    height: 20vh;
+    padding: 0 10%;
+    align-items: center;
+    color:whitesmoke;
+}
+.selfPayola h1 {
+    margin-bottom: 10%;
+    
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+    
+    
+    height: 100%;
+    width: 100%;
+}
+.game__side{
+    background-color: var(--kindaGreen);
+    box-shadow: 5px 5px 20px var(--kindaGreen);
+    border-radius: 15px;
+    height: 80%;
+    width: 80%;
+    padding: 10%;
+    position: relative;
+    overflow: visible;
+}
+.game__rightSide{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.game__btn{
+    position: absolute;
+    top:10%;
+    left: 5%;
+
+}
+.app-container__avatarHolder{
+    background-image: url(/assest/black-mageFace.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%; 
+
+}
+.app-container__speechBubble{
+    background-image: url(/assest/speechBubble.webp);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 20%;
+    
+   
+   
+   
+}
