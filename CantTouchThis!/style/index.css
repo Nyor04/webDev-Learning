@@ -86,7 +86,7 @@ body{
     height: 50%;
     width: 50%;
     position: absolute;
-    bottom: -5%;
+    bottom: -3%;
     left:50%; 
 
 
@@ -96,7 +96,7 @@ body{
     background-size:contain ;
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: 20%;
+
     grid-area:text;
     
    
@@ -117,7 +117,7 @@ body{
     width: 80%;
 }
 
-.app-container__triesCounter{
+.app-container__tries{
     background-color: var(--kindaBlue);
     height: 80%;
     width: 100%;
@@ -125,11 +125,25 @@ body{
     text-align: center;
     padding-top: 45%;
 }
-.app-container__triesCounter p{
+
+.app-container__triesTitle{
    color: whitesmoke;
    position: absolute;
-   top: -25%;
+   top: -35%;
    left: -45%;
    width: 200%;
 
 }
+.app-container__avatarText{
+    grid-area: text;
+    text-align: center;
+    color: black;
+
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    width: 80%;
+    margin: 8% auto;
+}
+    

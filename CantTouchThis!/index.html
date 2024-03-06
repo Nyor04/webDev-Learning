@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <title>CantTouchThis!</title>
 </head>
 <body class="main-container">
@@ -25,14 +29,21 @@
 
   <main class="game-container">
     <div class="game__leftSide game__side">
-        <button class="game__btn">Agarrame león 😈</button>
+        <button  class="game__btn">Agarrame león 😈</button>
     </div>
 
     <div  class="game__rightSide game__side">
-        <div class="app-container__triesCounter">0<p>Intentos Fallidos</p></div>
+        <div class="app-container__tries">
+          <p class="app-container__triesTitle">Intentos Fallidos</p>
+          <p class="app-container__triesCounter">0</p>
+        </div>
         <div class="app-container__avatarHolder"></div>
-        <div class="app-container__speechBubble"></div>
-        <div class="app-container__avatarText"></div>
+        <div class="app-container__speechBubble">
+          <p class="app-container__avatarText">
+            saludos wenas...  
+          </p>
+      </div>
+        
     </div>
   </main>
   <script src="script/index.js"></script>
