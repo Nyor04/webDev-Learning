@@ -1,0 +1,19 @@
+body{
+    
+    background-color: whitesmoke;
+}
+
+.main__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main__card{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 16px;
+}
+.main__card img{
+    width: 600px;
+    height: 480px;
+}
