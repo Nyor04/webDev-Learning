@@ -5,7 +5,7 @@ const favouritesAPIurl = 'https://api.thecatapi.com/v1/favourites';
 
 const headers = new Headers({
     "Content-Type": "application/json",
-    "x-api-key": "live_01p5qK5ufcWYRunE3yMPLFOSauwinWRwSEG6G6DmuOm8omHMe793CvROsrB0oA1c"
+    "x-api-key": "x"
   });
   
   const requestOptions = {
